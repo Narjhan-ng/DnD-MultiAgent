@@ -1,0 +1,130 @@
+# ===================================
+# Environment & Secrets
+# ===================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+secrets/
+
+# ===================================
+# Python
+# ===================================
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===================================
+# IDEs & Editors
+# ===================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===================================
+# OS
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===================================
+# Project Specific - Logs & Data
+# ===================================
+logs/
+*.log
+data/vectorstore/
+data/qdrant/
+*.db
+*.sqlite
+*.sqlite3
+
+# ===================================
+# Large Files - Documentation (not code docs)
+# ===================================
+# D&D manuals and PDFs (too large for git)
+data/documents/*.pdf
+manuals/
+datapizza-ai-main/
+datapizza-ai-main.zip
+
+# Keep project documentation (markdown)
+!docs/
+!docs/updates/
+!docs/updates/*.md
+
+# Exclude development documentation (internal)
+docs/phases/
+docs/examples/
+docs/BUGS.md
+
+# Exclude Claude Code internal documentation
+CLAUDE.md
+
+# ===================================
+# Temporary Files
+# ===================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local_settings.py
+
+# ===================================
+# Jupyter Notebooks
+# ===================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===================================
+# Node (if adding frontend tooling)
+# ===================================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ===================================
+# Generated Files
+# ===================================
+# Keep requirements.txt for reproducibility
+# requirements.txt  # REMOVED - we want this in git
+
+# But ignore compiled/generated files
+*.compiled
+*.generated
