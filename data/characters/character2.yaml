@@ -1,0 +1,53 @@
+# Rogue - Stealth/Skills
+name: "Kira Shadowstep"
+class: "Rogue"
+race: "Halfling"
+level: 1
+background: "Street urchin who survived by wit and quick fingers. Now seeks adventure and fortune, always looking over her shoulder."
+personality: "Clever, cautious, and quick-witted. Kira always looks for hidden dangers and alternative routes. She's skeptical by nature but fiercely loyal once trust is earned."
+
+# Ability Scores (Standard Array)
+abilities:
+  strength: 8
+  dexterity: 16
+  constitution: 13
+  intelligence: 12
+  wisdom: 14
+  charisma: 10
+
+# Key Skills
+skills:
+  - "Stealth"
+  - "Sleight of Hand"
+  - "Investigation"
+  - "Acrobatics"
+  - "Perception"
+  - "Deception"
+
+# Equipment
+equipment:
+  armor: "Leather armor"
+  weapons:
+    - "Rapier"
+    - "Shortbow"
+    - "Daggers (x2)"
+  other:
+    - "Thieves' tools"
+    - "Burglar's pack"
+
+# Hit Points
+hp_max: 9
+hp_current: 9
+
+# Class Features
+features:
+  - "Sneak Attack (1d6 extra damage)"
+  - "Thieves' Cant (secret language)"
+  - "Expertise: Stealth, Thieves' Tools"
+
+# Personality Traits for Roleplay
+traits:
+  - "Speaks quietly, often whispering"
+  - "Always checks for traps before entering"
+  - "Prefers staying in shadows"
+  - "Asks 'What's in it for me?' often"

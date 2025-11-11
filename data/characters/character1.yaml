@@ -1,0 +1,49 @@
+# Fighter - Tank/Frontline
+name: "Thorin Ironforge"
+class: "Fighter"
+race: "Dwarf"
+level: 1
+background: "Former soldier from the mountain kingdoms, sworn to protect the innocent and uphold honor in battle."
+personality: "Brave, loyal, and straightforward. Thorin prefers direct action over subtlety and values honor above all. He's protective of his allies and distrusts magic he doesn't understand."
+
+# Ability Scores (Standard Array)
+abilities:
+  strength: 16
+  dexterity: 12
+  constitution: 15
+  intelligence: 8
+  wisdom: 13
+  charisma: 10
+
+# Key Skills
+skills:
+  - "Athletics"
+  - "Intimidation"
+  - "Perception"
+  - "Survival"
+
+# Equipment
+equipment:
+  armor: "Chain mail"
+  weapons:
+    - "Battleaxe"
+    - "Handaxe (x2)"
+  other:
+    - "Explorer's pack"
+    - "Shield"
+
+# Hit Points
+hp_max: 12
+hp_current: 12
+
+# Class Features
+features:
+  - "Fighting Style: Defense (+1 AC with armor)"
+  - "Second Wind (1d10+1 HP recovery, 1/short rest)"
+
+# Personality Traits for Roleplay
+traits:
+  - "Speaks in gruff, direct sentences"
+  - "Always volunteers to go first into danger"
+  - "Suspicious of arcane magic"
+  - "Respects strength and courage"

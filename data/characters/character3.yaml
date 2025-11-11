@@ -1,0 +1,66 @@
+# Wizard - Magic/Support
+name: "Elara Moonshadow"
+class: "Wizard"
+race: "Elf"
+level: 1
+background: "Scholarly mage from an ancient academy, seeking lost knowledge and magical artifacts in forgotten ruins."
+personality: "Curious, analytical, and thoughtful. Elara values knowledge and careful planning over rash action. She's fascinated by arcane mysteries and often gets lost in thought."
+
+# Ability Scores (Standard Array)
+abilities:
+  strength: 8
+  dexterity: 14
+  constitution: 12
+  intelligence: 16
+  wisdom: 13
+  charisma: 10
+
+# Key Skills
+skills:
+  - "Arcana"
+  - "History"
+  - "Investigation"
+  - "Insight"
+
+# Equipment
+equipment:
+  armor: "None (AC 12 with Mage Armor)"
+  weapons:
+    - "Quarterstaff"
+    - "Dagger"
+  other:
+    - "Spellbook"
+    - "Component pouch"
+    - "Scholar's pack"
+
+# Hit Points
+hp_max: 7
+hp_current: 7
+
+# Spellcasting
+spellcasting:
+  spellcasting_ability: "Intelligence"
+  spell_save_dc: 13
+  spell_attack_bonus: 5
+  cantrips:
+    - "Fire Bolt"
+    - "Mage Hand"
+    - "Prestidigitation"
+  prepared_spells:
+    - "Mage Armor"
+    - "Magic Missile"
+    - "Shield"
+    - "Detect Magic"
+    - "Identify"
+
+# Class Features
+features:
+  - "Arcane Recovery (recover spell slots on short rest)"
+  - "Spellbook (6 1st-level spells known)"
+
+# Personality Traits for Roleplay
+traits:
+  - "Speaks in elaborate, formal language"
+  - "Pauses to analyze situations before acting"
+  - "Fascinated by magical phenomena"
+  - "Often quotes ancient texts"
